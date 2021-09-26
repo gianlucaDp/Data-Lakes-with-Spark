@@ -29,6 +29,8 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 #### RedShift database
 The processed database contains 4 dimensional table users, songs, artists and time and a fact table songplays.
 This is the ER schema of these tables:
+
+
 <img width="570" alt="schema" src="https://user-images.githubusercontent.com/36500094/134797883-1e13cc7e-a855-427b-a996-05f933ca21d5.png">
 
 
