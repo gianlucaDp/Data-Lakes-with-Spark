@@ -1,4 +1,4 @@
-# Data Warehouse with AWS
+# Data Lakes with Spark
 ### Scope
 The project scope is to extract data from S3 containers containing logs about songs and webpage usage, process the data
 into a Spark cluster and save the processed data into parquet files stored into a S3 container
@@ -26,7 +26,7 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 ![log-data](https://user-images.githubusercontent.com/36500094/134797838-10dc57e5-4dbd-4087-a283-15fc54305f44.png)
 
 
-#### RedShift database
+#### Database
 The processed database contains 4 dimensional table users, songs, artists and time and a fact table songplays.
 This is the ER schema of these tables:
 
